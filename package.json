@@ -1,0 +1,35 @@
+{
+  "name": "men-stack-relating-data-lab-cookbook",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camiegray/Men-Stack-Relating-Data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camiegray/Men-Stack-Relating-Data/issues"
+  },
+  "homepage": "https://github.com/camiegray/Men-Stack-Relating-Data#readme",
+  "description": "",
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "chalk": "^5.4.1",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "method-override": "^3.0.0",
+    "mongo-store": "^0.0.2",
+    "mongoose": "^8.13.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
